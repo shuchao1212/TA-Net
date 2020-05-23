@@ -23,7 +23,7 @@ You can refer to the given example, DRIVE, to set your own data.
 # How to train it
 You can directly run train_tanet.py if your have one GPU resource. It will start to train our TA-Net on the training set of DRIVE dataset. Then, you will observe some outputs of training data in intermediate_results folder after every epoch. After runing 300 epochs we set in Constants.py, you can use the trained network parameters in weights folder to test the test set of DRIVE dataset. (Similarly, you can replace DRIVE dataset with yours to implement these steps. So easy!)
 # How to test it
-You can directly run test_tanet.py to obtain test results which will save in test_results folder.
+After the model is well trained, you can directly run test_tanet.py to obtain test results which will save in test_results folder.
 # Please refer to our paper if you used our codes, thanks.
 Shuchao Pang, Anan Du, Mehmet A. Orgun, Yunyun Wang, and Zhenmei Yu, “TA-Net: Better Feature
 Selection, Better Tumor Segmentation”. Neural Networks. (Under Review -> Revising)
